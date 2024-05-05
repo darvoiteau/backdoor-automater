@@ -1,4 +1,4 @@
-# Firewall-Checker
+# Backdoor-Automater
 A tool coded in Rust for use in the post-exploitation phase of an offensive security system.
 This tool enables you to create backdoors on a Linux system effortlessly.
 
@@ -25,8 +25,8 @@ cd target/release
 
 Download the release here to get the binary executable: <a href="https://github.com/darvoiteau/backdoor-automater/releases/tag/backdoorautomater">backdoor-automater releases</a>
 
-chmod +x backdoorautomater-xxxxx
-./backdoorautomater-xxxxx --help
+chmod +x backdoorautomater-xxxxx<br>
+./backdoorautomater-xxxxx<br>
 
 
 ## Usage
@@ -41,12 +41,12 @@ To run the tool just put this command:<br><br>
 and answer to questions to install the backdoor:<br><br>
 
 
-:::red
+
 Choose what kind of backdoor you want to install !<br><br>
 
-1 Create new systemd malicious service  -> <code style="color : red">Need to be root</code><br><br>
+1 Create new systemd malicious service  -> Need to be root<br><br>
 
-2 Infect existing systemd service  -> <font color="red">Need to be root and can broke the service. Don't use it in production servers !!!</font><br><br>
+2 Infect existing systemd service  -> Need to be root and can broke the service. Don't use it in production servers !!!<br><br>
 
 3 Infect .bashrc of current user  -> Infect .bashrc file of the current user. You will have a reverse shell when the user try to connect on the machine<br><br>
 
