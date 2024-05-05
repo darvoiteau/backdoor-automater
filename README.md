@@ -44,7 +44,7 @@ and answer to questions to install the backdoor:<br><br>
 :::red
 Choose what kind of backdoor you want to install !<br><br>
 
-1 Create new systemd malicious service  -> <span style="color:red">Need to be root</span><br><br>
+1 Create new systemd malicious service  -> <code style="color : red">Need to be root</code><br><br>
 
 2 Infect existing systemd service  -> <font color="red">Need to be root and can broke the service. Don't use it in production servers !!!</font><br><br>
 
