@@ -41,7 +41,7 @@ To run the tool just put this command:<br><br>
 and answer to questions to install the backdoor:<br><br>
 
 
-:::text
+:::red
 Choose what kind of backdoor you want to install !<br><br>
 
 1 Create new systemd malicious service  -> <span style="color:red">Need to be root</span><br><br>
